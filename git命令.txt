@@ -31,6 +31,22 @@ git commit -m "test"
 9.回滚代码
   git reset --hard 70f396   （70f396在代码日志里面查看日志的前六位）
 
+10.git remote add origin git@github.com:shimilygood/evtGulp-shimilly.git    添加到远程github服务器上
+
+11.git push -u origin master   上传
+
+12.git pull origin master
+
+
+13.查看分支 git branch
+
+14.新建一个分支 git branch v1.1
+
+15.切换分支  git checkout v1.1 
+
+
+
+
 
 
 

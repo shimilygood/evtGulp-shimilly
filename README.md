@@ -15,7 +15,7 @@
 
 
 
-一.【nodeJS环境】
+## 一.【nodeJS环境】
  
   nodejs不是js文件，也不是js框架,  而是服务端的一个js运行环境，类似于php服务器。
 
@@ -25,7 +25,7 @@
 
 
 
-【npm】:所依赖的包管理工具  http://npmjs.com/
+##【npm】:所依赖的包管理工具  http://npmjs.com/
  
 1.安装一个依赖包
  -> npm install package_name   
@@ -45,7 +45,7 @@
 
 
 
-【bower】所依赖的包管理工具    bower.io/search/  里面有好多第三方流行的库
+##【bower】所依赖的包管理工具    bower.io/search/  里面有好多第三方流行的库
 
 bower的安装方式：
  ->npm install -g bower  
@@ -55,7 +55,7 @@ bower的安装方式：
 
 
 
-【gulp】当下最流行的自动化工具  
+##【gulp】当下最流行的自动化工具  
 【官网地址：http://www.gulpjs.com.cn/docs/getting-started/】
 [官网](http://gulpjs.com/)
 [中文网](http://www.gulpjs.com.cn/)
@@ -99,7 +99,7 @@ gulp.task('default', function() {
 
 
 
-【如何在gulp中定义任务】：
+##【如何在gulp中定义任务】：
 
 var gulp = require('gulp');
 gulp.task('say',function(){
@@ -130,7 +130,7 @@ gulp的API:
 插件安装方法：-> npm install gulp-less --save-dev    //安装并加入到dev中
 
 
-常用插件
+## 常用插件
 
 - [编译 Less：gulp-less](https://www.npmjs.com/package/gulp-less)
 
